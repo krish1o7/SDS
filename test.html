@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fans List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #00bfa5;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+        .hero {
+            background-color: #000;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .hero h2 {
+            margin: 0;
+            font-size: 2rem;
+        }
+        .hero p {
+            margin: 10px 0;
+            font-size: 1.2rem;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .fans-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .fan-item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .fan-item h3 {
+            margin: 10px 0;
+            font-size: 1.2rem;
+        }
+        .fan-item p {
+            color: #555;
+            font-size: 0.9rem;
+        }
+        footer {
+            background-color: #00bfa5;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Fans Collection</h1>
+    </header>
+    <div class="hero">
+        <h2>Elegant and Energy-Efficient Fans</h2>
+        <p>Discover the best fans designed to enhance your living spaces.</p>
+    </div>
+    <div class="container">
+        <div class="fans-list">
+            <div class="fan-item">
+                <h3>Fan 1</h3>
+                <p>Energy-efficient ceiling fan for all seasons.</p>
+            </div>
+            <div class="fan-item">
+                <h3>Fan 2</h3>
+                <p>Modern design fan with remote control.</p>
+            </div>
+            <div class="fan-item">
+                <h3>Fan 3</h3>
+                <p>Wall-mounted fan for compact spaces.</p>
+            </div>
+            <div class="fan-item">
+                <h3>Fan 4</h3>
+                <p>Portable desk fan with adjustable speed.</p>
+            </div>
+            <div class="fan-item">
+                <h3>Fan 5</h3>
+                <p>Decorative fan with LED lighting.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Fans World. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

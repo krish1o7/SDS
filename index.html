@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDS Sales and marketing Co.</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo"> SDS SALES & MARKETING CO.</div>
+   
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Categories</a>
+                    <!-- Dropdown Menu -->
+                    <ul class="dropdown">
+                        <li><a href="#">switches</a></li>
+                        <li><a href="#">Lighting</a></li>
+                        <li><a href="#">Fans</a></li>
+                        <li><a href="#">Water Heaters</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Investors</a></li>
+                <li><a href="#">More</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="text">
+            <h1>SDS GROUP <br>Your Partner in Power and Light. </h1>
+      
+        </div>
+        <img src="Brown Beige Meditation Illustrative Informational Infographic Poster (3).png" alt="Chimney Image" width="20%">
+       
+    </section>
+
+    <!-- Scroll Down Button -->
+    <button class="scroll-btn" onclick="scrollToSection()">See More Options</button>
+
+    <!-- Scroll Section -->
+    <section id="scroll-section" class="scroll-section">
+        <h2>Explore More Options</h2>
+        <p>Discover a wide range of products to make your home better.</p>
+        <div class="options-grid">
+            <div class="option-card">
+              <img src="wired-outline-2781-single-type-d-hover-pinch.gif" alt="" width="70">
+                <p>High-quality switches for modern homes.</p>
+            </div>
+            <div class="option-card">
+                <img src="wired-outline-1650-chandelier-hover-pinch.gif" alt="" width="70">
+                <p>Elegant lighting solutions to brighten your space.</p>
+            </div>
+            <a href="fan.html" target="_blank"><div class="option-card">
+                <img src="fan.gif" alt="" width="70">
+                <p>Energy-efficient fans for all seasons.</p>
+            </div></a>
+         
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2019 SDS Sales and marketing Co. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        function scrollToSection() {
+            const section = document.getElementById('scroll-section');
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
+
