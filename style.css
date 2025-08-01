@@ -199,7 +199,13 @@ footer p {
     color: #666;
     font-size: 14px;
 }
-
+.option-card button{
+    background-color: #ffffff;
+    border-color: #ffffff;
+    box-shadow: none;
+    color: #08a88a;
+     cursor: pointer;
+}
 @media (max-width: 1024px){
     nav{
         display: none;
